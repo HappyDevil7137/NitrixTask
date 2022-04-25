@@ -1,0 +1,5 @@
+os: osx
+osx_image: xcode13.2
+language: swift
+xcode_project: MovieList_I.Stakankov.xcodeproj
+script: xcodebuild -project MovieList_I.Stakankov.xcodeproj -scheme "MovieList_I.Stakankov" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=latest'
