@@ -18,7 +18,6 @@ protocol MovieListViewProtocol {
 
 final class MovieListViewModel: MovieListViewProtocol {
     private let networkController: NetworkControllerProtocol
-    
     private(set) var dataArray = [MovieResults]()
     private var fetchingMore = false
     private var indexOfpageRequest = 1
